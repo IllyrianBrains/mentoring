@@ -1,0 +1,32 @@
+site_name: "IllyrianBrains Mentoring Program"
+site_url: "https://illyrianbrains.github.io/mentoring_docs/"
+theme:
+  name: material
+  palette:
+    primary: "yellow"
+    accent: "green"
+  font:
+    text: "Roboto"
+    code: "Courier New"
+  
+  features:
+    - navigation.tabs
+nav:
+  - Home: index.md
+  - Overview and Toolkit: overview.md
+  - Participate!: participate.md
+  - Feedback and Resources: contribute.md
+
+extra_css:
+  - 'assets/styles.css'
+extra_javascript:
+  - 'assets/scripts.js'
+extra_templates:
+  - footer.html
+
+
+markdown_extensions:
+  - admonition
+extra:
+  inclusion:
+    post-content: "footer.html"
